@@ -58,11 +58,11 @@ p {
 }
 
 #computer-area {
-    color: darkred;
+    color: red;
 }
 
 #user-area {
-    color: darkgreen;
+    color: green;
 }
 
 img {
@@ -70,10 +70,13 @@ img {
 }
 
 #hero-select {
+    border: 2px solid black;
+    background-color: #A39681;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 20px;
+    padding: 5px;
 }
 
 button {
@@ -82,12 +85,12 @@ button {
     height: 70px;
     border: 2px solid green;
     border-radius: 70px;
-    background-color: #426222;
+    background-color: #3F4419;
+    color: #A3A86B;
 }
 
 button:hover {
-    font-weight: bold;
-    background-color: lightblue;
+    font-size: x-large;
 }
 
 footer {

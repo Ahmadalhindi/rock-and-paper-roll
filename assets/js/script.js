@@ -6,11 +6,10 @@ for (let button of buttons) {
     button.addEventListener("click", function () {
         let userChoice = this.getAttribute("data-choice");
 
-        alert(`You clicked ${choices[userChoice]}`);
-
         playGame(userChoice);
     });
 }
+
 /** 
 * The main game called when select the buttons
 * Declare and alter user and computer images according to choice 
@@ -29,10 +28,7 @@ function playGame(userChoice) {
     computerImage.alt = choices[computerChoice];
 
     resultAndScore(choices[computerChoice], choices[userChoice]);
-
-    console.log(result, "<===result");
 }
-
 
 /**Declare the user and cumputer choices and the result
 * Rtuern the result and score 
@@ -43,9 +39,6 @@ function resultAndScore(computerChoice, userChoice) {
     let userScore = document.getElementById("user-score");
     let computerScore = document.getElementById("computer-score");
     let result = document.getElementById("result");
-
-    console.log(computerChoice, "<===comp choice");
-    console.log(userChoice, "<====player choice");
 
     if (
         userChoice === "paper" && computerChoice === "rock" ||
