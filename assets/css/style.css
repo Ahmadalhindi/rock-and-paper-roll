@@ -37,7 +37,6 @@ p {
 #result {
     margin: 40px 0 10px 0;
     text-align: center;
-    font-size: 1.5em;
 }
 
 .score-area {
@@ -54,7 +53,6 @@ p {
 #computer-area {
     margin: 5px;
     gap: 10px;
-    background-size: stretch;
 }
 
 #computer-area {
@@ -104,8 +102,9 @@ footer {
         flex-direction: column;
     }
 }
+
 @media screen and (max-width: 200px) {
-     #hero-select {
+    #hero-select {
         flex-direction: column;
     }
 }
