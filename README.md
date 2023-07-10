@@ -18,7 +18,10 @@ Rock and Paper roll is a site with a major consideration of JavaScript achieve. 
 
   - This area contains a text that elaborates who is the winner and the reason of winning or losing depending on ability of each chosen hero.
 
-![Winner](assets/readmeimages/the-winner.webp)
+![Winner]<p align="center">
+<img  src="assets/readmeimages/the-winner.webp">
+
+</p>
 
 - **The score area**
 
