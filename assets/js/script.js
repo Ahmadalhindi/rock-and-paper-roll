@@ -46,19 +46,16 @@ function resultAndScore(computerChoice, userChoice) {
         userChoice === "scissors" && computerChoice === "paper"
     ) {
         result.innerHTML = `You Score, ${userChoice} beats ${computerChoice}`;
-        (userScore.innerText)++ + 1;
-        return "You Score!";
+        return (userScore.innerText)++ + 1;
     } else if (
         computerChoice === "paper" && userChoice === "rock" ||
         computerChoice === "rock" && userChoice === "scissors" ||
         computerChoice === "scissors" && userChoice === "paper"
     ) {
         result.innerHTML = `Computer Scores, ${computerChoice} beats ${userChoice}`;
-        (computerScore.innerText)++ + 1;
-        return "Computer Scores!";
+        return (computerScore.innerText)++ + 1;
     } else {
         result.innerText = "Show Mercy";
-        return "Nothing";
     }
 }
 

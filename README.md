@@ -1,39 +1,89 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock and Paper roll
 
-Welcome,
+Rock and Paper roll is a site with a major consideration of JavaScript achieve. The goal of the site is to entertain the users and give them at the same time the taste of JavaScript concepts. It allows the users to pick their hero: (rock, paper, or scissors) as a challenge against the computer.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Ami Responsive](.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Features
 
-## Codeanywhere Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- **The Header**
 
-`python3 -m http.server`
+  - The name of the site that located at the top to give big attention of what is the site about.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Logo](media/.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- **The victor area**
 
-`http_server`
+  - This area contains a text that elaborates who is the winner and the reason of winning or losing depending on ability of each chosen hero.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Game](media/.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **The score area**
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - This area will count how many times for each the user and the opponent (the computer) win.
+  - The color of the winning number for the user will be green and for the opponent will be in red.
+  - The area also contains two pictures that represent the chosen hero.
 
-To log into the Heroku toolbelt CLI:
+![Question](media/.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- **The hero select section**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This section will allow the user to select the hero as a button.
+  - These buttons are represented as icons.
+  - Using the hover attribute to ease the selection as double size the button content.
 
----
+- **The footer**
 
-Happy coding!
+  - Contains a text to thank the user for playing and the hope for great enjoying.
+
+## Testing
+
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fahmadalhindi.github.io%2Frock-and-paper-roll%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fahmadalhindi.github.io%2Frock-and-paper-roll%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- JavaScript
+  - I tested with [Jshint validator](https://jshint.com/) and got 18 warnings:
+    - The two warnings that I solved are:
+      - Unnecessary semicolon, in the last line in JavaScript: I solve it by removing the semicolon.
+      - Expected an assignment or function call and instead saw an expression: I solve it by set return before it.
+    - The rest 16 warnings are just repeating for only two warnings (you can open the link to see them) and those normally to create a configuration file in project directory to set up JSHint:
+      - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+      - 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+
+### Unfixed Bugs
+
+- See the Validator Testing paragraph above for JavaScript by JSHint.
+
+### Fixed Bugs
+
+- See the Validator Testing paragraph above for JavaScript by JSHint.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://ahmadalhindi.github.io/rock-and-paper-roll/
+
+## Credits
+
+- The flexbox in CSS as media queries: [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) & [Youtube-Kevin Powell](https://www.youtube.com/@KevinPowell).
+
+- The score area in HTML and the function for playGame in JavaScript: from love math and rock paper scissors by code institute.
+
+### Content
+
+- The text for the Home page was taken from [Google Fonts](https://fonts.google.com/)
+- The icons in the buttons were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The images used for Heroes were taken from: https://www.reddit.com/r/customhearthstone/comments/75yn9j/rock_paper_scissors/ and
+  https://gopro-forum.ru/hu/chto-takoe-kamen-nozhnicy-bumaga-kak-igrat-v-igru-kamen
