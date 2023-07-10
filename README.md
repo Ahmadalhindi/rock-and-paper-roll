@@ -2,7 +2,7 @@
 
 Rock and Paper roll is a site with a major consideration of JavaScript achieve. The goal of the site is to entertain the users and give them at the same time the taste of JavaScript concepts. It allows the users to pick their hero: (rock, paper, or scissors) as a challenge against the computer.
 
-![Ami Responsive](.png)
+![Ami Responsive](assets/readmeimages/amiresponsive.webp)
 
 ## Features
 
@@ -12,13 +12,13 @@ Rock and Paper roll is a site with a major consideration of JavaScript achieve. 
 
   - The name of the site that located at the top to give big attention of what is the site about.
 
-![Logo](media/.png)
+![Header](assets/readmeimages/header.webp)
 
 - **The victor area**
 
   - This area contains a text that elaborates who is the winner and the reason of winning or losing depending on ability of each chosen hero.
 
-![Game](media/.png)
+![Winner](assets/readmeimages/the-winner.webp)
 
 - **The score area**
 
@@ -26,7 +26,9 @@ Rock and Paper roll is a site with a major consideration of JavaScript achieve. 
   - The color of the winning number for the user will be green and for the opponent will be in red.
   - The area also contains two pictures that represent the chosen hero.
 
-![Question](media/.png)
+![After Score](assets/readmeimages/score-area.webp)
+
+![Before Score](assets/readmeimages/rock-paper-scissors.webp)
 
 - **The hero select section**
 
@@ -41,6 +43,11 @@ Rock and Paper roll is a site with a major consideration of JavaScript achieve. 
 ## Testing
 
 ### Validator Testing
+
+- Lighthouse
+
+  - I tested and got the follow result:
+    ![Lighthouse](assets/readmeimages/lighthouse-test.webp)
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fahmadalhindi.github.io%2Frock-and-paper-roll%2F)
