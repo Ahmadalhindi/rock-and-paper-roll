@@ -9,6 +9,7 @@ html {
     width: 100%;
 }
 
+/* Font imported from https://fonts.google.com/ */
 body {
     background-color: white;
     color: #000000;
@@ -103,7 +104,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 300px) {
     #hero-select {
         flex-direction: column;
     }
